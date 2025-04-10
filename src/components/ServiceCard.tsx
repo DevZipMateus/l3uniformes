@@ -7,7 +7,7 @@ interface ServiceCardProps {
   title: string;
   description: string;
   className?: string;
-  imageUrl: string;
+  imageUrl?: string;
 }
 
 const ServiceCard = ({ icon: Icon, title, description, className, imageUrl }: ServiceCardProps) => {
@@ -16,13 +16,15 @@ const ServiceCard = ({ icon: Icon, title, description, className, imageUrl }: Se
       "glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group",
       className
     )}>
-      <div className="aspect-video w-full overflow-hidden">
-        <img 
-          src={imageUrl} 
-          alt={title} 
-          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-        />
-      </div>
+      {imageUrl && (
+        <div className="aspect-video w-full overflow-hidden">
+          <img 
+            src={imageUrl} 
+            alt={title} 
+            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          />
+        </div>
+      )}
       
       <div className="p-6">
         <div className="flex items-center gap-3 mb-4">
