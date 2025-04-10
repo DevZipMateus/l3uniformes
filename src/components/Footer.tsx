@@ -46,10 +46,11 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Produtos</h3>
             <ul className="space-y-2 text-gray-400">
               <li><a href="#services" className="hover:text-white transition-colors">Camiseta Pólo</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Camiseta Poliviscose</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Camisetas com logos</a></li>
               <li><a href="#services" className="hover:text-white transition-colors">Jaquetas</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Camisas</a></li>
-              <li><a href="#services" className="hover:text-white transition-colors">Calça profissional</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Uniformes administrativos</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Uniformes gastronômicos</a></li>
+              <li><a href="#services" className="hover:text-white transition-colors">Uniformes industriais</a></li>
             </ul>
           </div>
           
