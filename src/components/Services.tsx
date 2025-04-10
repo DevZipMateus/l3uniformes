@@ -15,7 +15,7 @@ const Services = () => {
       icon: Shirt,
       title: 'Camisetas com logos',
       description: 'Camisetas personalizadas com sua marca, logos ou arte. Ideais para equipes, eventos ou uso corporativo.',
-      imageUrl: '/lovable-uploads/camisetaslog.jpg'
+      imageUrl: '/lovable-uploads/camisetaslogo.jpg'
     },
     {
       icon: PackageCheck,
@@ -25,13 +25,13 @@ const Services = () => {
     },
     {
       icon: Scissors,
-      title: 'Camisas',
+      title: 'Uniformes admnistrativos',
       description: 'Camisas sociais e executivas personalizadas, com acabamento de alta qualidade para sua empresa.',
-      imageUrl: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80'
+      imageUrl: '/lovable-uploads/adm.jpg'
     },
     {
       icon: ChefHat,
-      title: 'Uniformes gastronômico',
+      title: 'Uniformes gastronômicos',
       description: 'Uniformes completos para restaurantes, cozinhas e serviços de alimentação, com conforto e praticidade.',
       imageUrl: '/lovable-uploads/gastronomico.jpg'
     },
