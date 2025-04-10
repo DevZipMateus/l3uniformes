@@ -1,13 +1,7 @@
-
 import { ArrowRight } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
-
 const Hero = () => {
-  return (
-    <section 
-      id="home" 
-      className="relative min-h-screen flex items-center pt-20 bg-white overflow-hidden"
-    >
+  return <section id="home" className="relative min-h-screen flex items-center pt-20 bg-white overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0">
         <div className="absolute inset-y-0 right-0 w-1/2 bg-bordo/5 skew-x-12 transform origin-bottom"></div>
@@ -51,10 +45,8 @@ const Hero = () => {
               </div>
               <div className="hidden sm:block h-12 w-px bg-gray-200"></div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-bordo">
-                  <span className="text-2xl">★</span>
-                </div>
-                <div className="text-sm text-gray-600">Qualidade</div>
+                
+                
               </div>
             </div>
           </AnimatedSection>
@@ -64,11 +56,7 @@ const Hero = () => {
               <div className="absolute -top-12 -left-8 w-64 h-64 bg-bordo/10 rounded-full filter blur-xl"></div>
               <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-gray-200 rounded-full filter blur-xl"></div>
               <div className="relative z-10 bg-white/80 backdrop-blur-sm shadow-xl rounded-2xl p-6 transform transition-all duration-500 hover:scale-[1.01] hover:shadow-2xl">
-                <img 
-                  src="/lovable-uploads/b1b44bef-43e3-4a20-a16b-569ccb9960a4.png" 
-                  alt="L3 Uniformes" 
-                  className="w-full h-auto object-contain mx-auto max-w-md"
-                />
+                <img src="/lovable-uploads/b1b44bef-43e3-4a20-a16b-569ccb9960a4.png" alt="L3 Uniformes" className="w-full h-auto object-contain mx-auto max-w-md" />
               </div>
             </div>
           </AnimatedSection>
@@ -76,8 +64,6 @@ const Hero = () => {
       </div>
       
       <div className="absolute bottom-0 left-0 right-0 h-16 bg-gradient-to-t from-white to-transparent"></div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
