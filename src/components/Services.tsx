@@ -1,5 +1,5 @@
 
-import { Shirt, Shirt as ShirtIcon, Jacket, Scissors, Backpack } from 'lucide-react';
+import { Shirt, Shirt as ShirtIcon, Coat, Scissors, Backpack } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import AnimatedSection from './AnimatedSection';
 
@@ -18,7 +18,7 @@ const Services = () => {
       imageUrl: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2154&q=80'
     },
     {
-      icon: Jacket,
+      icon: Coat,
       title: 'Jaquetas',
       description: 'Jaquetas empresariais personalizadas, ideais para proteção e identidade visual em dias frios.',
       imageUrl: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80'
