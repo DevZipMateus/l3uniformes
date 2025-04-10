@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 @tailwind base;
@@ -96,12 +95,6 @@
     shadow-sm hover:shadow-md 
     hover:-translate-y-0.5 active:translate-y-0 
     focus:outline-none focus:ring-2 focus:ring-bordo/50 focus:ring-offset-2;
-  }
-
-  .whatsapp-btn {
-    @apply fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 
-    text-white p-3.5 rounded-full shadow-lg 
-    transition-all hover:scale-110 hover:shadow-xl;
   }
 
   .card-hover {

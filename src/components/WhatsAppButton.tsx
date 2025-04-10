@@ -15,12 +15,12 @@ const WhatsAppButton = ({ phoneNumber, message = "Olá! Gostaria de saber mais s
       target="_blank" 
       rel="noopener noreferrer" 
       aria-label="Fale conosco pelo WhatsApp"
-      className="whatsapp-btn group"
+      className="fixed bottom-6 right-6 z-50 bg-transparent hover:bg-transparent p-0 rounded-full transition-transform duration-300 group"
     >
       <img 
         src="/lovable-uploads/whatsapp1.png" 
         alt="WhatsApp" 
-        className="h-12 w-12 group-hover:scale-110 transition-transform duration-300" 
+        className="h-14 w-14 group-hover:scale-110 transition-transform duration-300" 
       />
       <span className="sr-only">WhatsApp</span>
     </a>
