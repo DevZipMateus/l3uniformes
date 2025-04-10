@@ -13,20 +13,20 @@ interface ServiceCardProps {
 const ServiceCard = ({ icon: Icon, title, description, className, imageUrl }: ServiceCardProps) => {
   return (
     <div className={cn(
-      "glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group",
+      "glass-card rounded-xl overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1 group h-full flex flex-col",
       className
     )}>
       {imageUrl && (
-        <div className="aspect-video w-full overflow-hidden">
+        <div className="relative pt-[60%] w-full overflow-hidden">
           <img 
             src={imageUrl} 
             alt={title} 
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+            className="absolute inset-0 w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
           />
         </div>
       )}
       
-      <div className="p-6">
+      <div className="p-6 flex-grow flex flex-col">
         <div className="flex items-center gap-3 mb-4">
           <div className="w-10 h-10 rounded-lg bg-bordo/10 flex items-center justify-center group-hover:bg-bordo/20 transition-colors">
             <Icon className="h-5 w-5 text-bordo" />
@@ -34,7 +34,7 @@ const ServiceCard = ({ icon: Icon, title, description, className, imageUrl }: Se
           <h3 className="text-xl font-bold">{title}</h3>
         </div>
         
-        <p className="text-gray-600">{description}</p>
+        <p className="text-gray-600 flex-grow">{description}</p>
         
         <a 
           href="#contact" 

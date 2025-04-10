@@ -1,5 +1,5 @@
 
-import { Shirt, Shirt as ShirtIcon, PackageCheck, Scissors, Backpack } from 'lucide-react';
+import { Shirt, Shirt as ShirtIcon, PackageCheck, Scissors, Backpack, ChefHat, Factory } from 'lucide-react';
 import ServiceCard from './ServiceCard';
 import AnimatedSection from './AnimatedSection';
 
@@ -9,19 +9,19 @@ const Services = () => {
       icon: ShirtIcon,
       title: 'Camiseta Pólo',
       description: 'Camisetas pólo personalizadas com bordado ou estampa, ideais para o dia a dia empresarial.',
-      imageUrl: 'https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80'
+      imageUrl: '/lovable-uploads/polos.jpg'
     },
     {
       icon: Shirt,
-      title: 'Camiseta Poliviscose',
-      description: 'Camisetas em poliviscose, confortáveis e resistentes, perfeitas para o uso diário no trabalho.',
-      imageUrl: 'https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2154&q=80'
+      title: 'Camisetas com logos',
+      description: 'Camisetas personalizadas com sua marca, logos ou arte. Ideais para equipes, eventos ou uso corporativo.',
+      imageUrl: '/lovable-uploads/camisetaslog.jpg'
     },
     {
       icon: PackageCheck,
       title: 'Jaquetas',
       description: 'Jaquetas empresariais personalizadas, ideais para proteção e identidade visual em dias frios.',
-      imageUrl: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1936&q=80'
+      imageUrl: '/lovable-uploads/inverno.jpg'
     },
     {
       icon: Scissors,
@@ -30,10 +30,16 @@ const Services = () => {
       imageUrl: 'https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1925&q=80'
     },
     {
-      icon: Backpack,
-      title: 'Calça profissional',
-      description: 'Calças profissionais para diversos segmentos, com durabilidade e conforto para o dia a dia.',
-      imageUrl: 'https://images.unsplash.com/photo-1542327897-4141b355e20e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80'
+      icon: ChefHat,
+      title: 'Uniformes gastronômico',
+      description: 'Uniformes completos para restaurantes, cozinhas e serviços de alimentação, com conforto e praticidade.',
+      imageUrl: '/lovable-uploads/gastronomico.jpg'
+    },
+    {
+      icon: Factory,
+      title: 'Uniformes industriais',
+      description: 'Uniformes resistentes e seguros para ambientes industriais, atendendo às normas de segurança do trabalho.',
+      imageUrl: '/lovable-uploads/industrial.jpg'
     }
   ];
 

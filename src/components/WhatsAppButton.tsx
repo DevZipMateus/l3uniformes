@@ -1,6 +1,4 @@
 
-import { Smartphone } from 'lucide-react';
-
 interface WhatsAppButtonProps {
   phoneNumber: string;
   message?: string;
@@ -19,7 +17,11 @@ const WhatsAppButton = ({ phoneNumber, message = "Olá! Gostaria de saber mais s
       aria-label="Fale conosco pelo WhatsApp"
       className="whatsapp-btn group"
     >
-      <Smartphone className="h-6 w-6 group-hover:animate-pulse" />
+      <img 
+        src="/lovable-uploads/whatsapp1.png" 
+        alt="WhatsApp" 
+        className="h-12 w-12 group-hover:scale-110 transition-transform duration-300" 
+      />
       <span className="sr-only">WhatsApp</span>
     </a>
   );
