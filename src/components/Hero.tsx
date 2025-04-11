@@ -17,7 +17,7 @@ const Hero = () => {
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
               Nossa empresa <br />
-              <span className="text-bordo">uniformizando a sua</span>
+              <span className="text-bordo">uniformizando a sua empresa</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
               Fundada em 2017, a L3 Uniformes se dedica a promover a identidade e a união das equipes 
