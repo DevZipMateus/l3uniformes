@@ -25,7 +25,7 @@ const Services = () => {
     },
     {
       icon: Scissors,
-      title: 'Uniformes admnistrativos',
+      title: 'Uniformes administrativos',
       description: 'Camisas sociais e executivas personalizadas, com acabamento de alta qualidade para sua empresa.',
       imageUrl: '/lovable-uploads/adm.jpg'
     },
