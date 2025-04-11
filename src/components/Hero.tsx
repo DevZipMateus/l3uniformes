@@ -16,7 +16,7 @@ const Hero = () => {
               Uniformes Profissionais de Qualidade
             </span>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
-              Nossa empresa <br />
+              Nossa família <br />
               <span className="text-bordo">uniformizando a sua empresa</span>
             </h1>
             <p className="text-lg text-gray-600 max-w-xl">
